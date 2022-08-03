@@ -1,0 +1,64 @@
+<html>
+<head>
+<title>
+exercise 2
+</title>
+</head>
+<body>
+
+<center>
+<form>
+<TABLE>
+<THEAD>
+Data Booking
+</THEAD>
+<TABLE>
+<TR><TD>
+<label>Visitor Name:</TD><TD><input type="text" maxlength="20" name="Visitor Name"pattern=""/><br></label></TD>
+</TR>
+<TR><TD><label>Number of Members:</TD><TD><input type="number"pattern="[0-9]{2}"/></label>
+</TD>
+</TR>
+<TR>
+<TD>
+<label>contact no:</TD><TD><input type="tel" pattern="[0-9]"size="10"/></label></TD>
+</TR>
+<TR><TD>
+<label>Email:</TD><TD><input type="email"/></label></TD>
+</TR>
+<TR>
+<TD>
+<label> types of food:</TD><TD COLSPAN="2"> <input type="checkbox" name="type of food" value="South Indian">South Indian</label>
+
+
+<lable><input type="checkbox" name="type of food" value="North Indian">North Indian</label>
+<lable><input type="checkbox" name="type of food" value="Chinese">Chinese</label>
+<lable><input type="checkbox" name="type of food" value="western">western</label><br></input>
+<label>Room Status:<input type="radio" name="Room Status" value="AC">AC</label>
+<input type="radio" name="Room Status" value="Non-AC">Non-AC</label></TD>
+</TR>
+<TR>
+<TD>
+<lable>Venue preferences:</TD><TD><select>
+<OPTION VALUE="--SELECT--">SELECT</OPTION>
+<option value="Arena">Arena</option>
+<option value="Fiesta">Fiesta</option>
+<option value="Vista">Vista</option>
+<option value="Mythri">Mythri</option>
+<option value="Magna">Magna</option>
+<option value="Oasis">Oasis</option>
+<option value="Amoeba">Amoeba</option>
+</select></lable></TD></TR>
+<TR>
+<TD>
+<input type="submit"value="Book"></TD>
+<TD>
+<input type="reset"value="reset">
+</TD>
+</TR>
+
+</form>
+</TABLE>
+</center>
+</body>
+</html>
