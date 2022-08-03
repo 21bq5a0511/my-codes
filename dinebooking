@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>
+exercise
+</title>
+</head>
+<body>
+<center>
+<h3>
+Dine Booking
+</h3>
+<form>
+<label>Visitor Name:<input type="text" maxlength="20" name="Visitor Name"/><br></label>
+<label>Number of Members:<input type="tel"pattern="[0-9]{2}"/><br></label>
+<label>contact no:<input type="tel" pattern="[0-9]"size="10"/><br></label>
+<label>Email:<input type="email"/><br></label>
+<label> types of food: <input type="checkbox" name="type of food" value="South Indian" checked>South Indian</label>
+<lable><input type="checkbox" name="type of food" value="North Indian">North Indian</label>
+<lable><input type="checkbox" name="type of food" value="Chinese">Chinese</label>
+<lable><input type="checkbox" name="type of food" value="western">western</label><br></input>
+<label>Room Status:<input type="radio" name="Room Status" value="AC" checked>AC</label>
+<input type="radio" name="Room Status" value="Non-AC">Non-AC</label><br>
+<lable>Venue preferences:<select>
+<OPTION VALUE="--SELECT--">SELECT</OPTION>
+<option value="Arena">Arena</option>
+<option value="Fiesta">Fiesta</option>
+<option value="Vista">Vista</option>
+<option value="Mythri">Mythri</option>
+<option value="Magna">Magna</option>
+<option value="Oasis">Oasis</option>
+<option value="Amoeba">Amoeba</option>
+</select><br></lable><br><br><br>
+<input type="submit"value="Book">
+<input type="reset"value="reset">
+</form>
+</center>
+</body>
+</html>
